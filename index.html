@@ -2,7 +2,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>الكشافة البحرية</title>
+<title>موسوعة الكشافة البحرية</title>
 <style>
 body{
 font-family:Arial;
@@ -19,49 +19,41 @@ text-align:center;
 }
 nav{
 background:#0055aa;
-padding:12px;
+padding:10px;
 text-align:center;
 position:sticky;
 top:0;
+z-index:10;
 }
 nav a{
 color:white;
-margin:8px;
+margin:6px;
 text-decoration:none;
 font-weight:bold;
+font-size:13px;
 }
-nav a:hover{color:#ffdd57}
 .hero{
-background:url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=60');
-background-size:cover;
-background-position:center;
-height:250px;
-display:flex;
-align-items:center;
-justify-content:center;
-color:white;
-font-size:24px;
+background:#cfe8ff;
+padding:25px;
+text-align:center;
 font-weight:bold;
-text-shadow:0 0 10px rgba(0,0,0,0.7);
 }
-section{padding:20px}
+section{padding:18px}
 .card{
 background:white;
-padding:20px;
-margin:15px 0;
+padding:18px;
+margin:12px 0;
 border-radius:15px;
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
-img{width:100%;border-radius:10px;margin-top:10px}
-h2{color:#003366}
-ul{padding-right:20px}
 button{
 background:#0066cc;
 color:white;
 border:none;
-padding:10px 15px;
+padding:10px 14px;
 border-radius:10px;
 cursor:pointer;
+margin:5px;
 }
 button:hover{background:#004c99}
 footer{
@@ -71,29 +63,53 @@ text-align:center;
 padding:15px;
 margin-top:20px;
 }
+.small{font-size:14px;color:#444}
 </style>
 </head>
 <body><header>
-<h1>الكشافة البحرية</h1>
-<p>رحلة تعلم، مغامرة، وانضباط في عالم البحر</p>
+<h1>موسوعة الكشافة البحرية</h1>
+<p>أكبر موقع تعليمي عن تاريخ ومهارات وأنشطة الكشافة البحرية</p>
 </header><nav>
-<a href="#about">عن الكشافة</a>
+<a href="#about">تعريف</a>
 <a href="#history">التاريخ</a>
-<a href="#activities">الأنشطة</a>
-<a href="#ranks">الرتب</a>
-<a href="#training">التدريب</a>
-<a href="#quiz">اختبارات</a>
-</nav><div class="hero">
-كن مستعدًا للمغامرة البحرية 🌊
-</div><section id="about">
+<a href="#world">العالم</a>
+<a href="#egypt">مصر</a>
+<a href="#law">القانون</a>
+<a href="#activities">أنشطة</a>
+<a href="#skills">مهارات</a>
+<a href="#knots">العقد</a>
+<a href="#signals">إشارات</a>
+<a href="#quiz">اختبار</a>
+</nav><div class="hero">🌊 اكتشف عالم الكشافة البحرية 🌊</div><section id="about">
 <div class="card">
 <h2>ما هي الكشافة البحرية؟</h2>
-<p>هي جزء من الحركة الكشفية تهتم بتعليم الشباب مهارات البحر مثل الإبحار والإنقاذ والعمل الجماعي.</p>
+<p>هي فرع من الحركة الكشفية يهدف إلى إعداد الشباب للحياة البحرية من خلال تعليمهم الإبحار، الإنقاذ، الانضباط، والعمل الجماعي.</p>
 </div>
 </section><section id="history">
 <div class="card">
 <h2>تاريخ الكشافة البحرية</h2>
-<p>بدأت عام 1907 على يد بادن باول ثم تطورت لتشمل الكشافة البحرية وانتشرت عالميًا ومنها مصر.</p>
+<p>بدأت عام 1907 على يد بادن باول في إنجلترا، ثم ظهرت الكشافة البحرية لتدريب الشباب على مهارات البحر وانتشرت عالميًا.</p>
+</div>
+</section><section id="world">
+<div class="card">
+<h2>الكشافة البحرية عالميًا</h2>
+<p>تنتشر في معظم دول العالم تحت منظمة الكشافة العالمية WOSM، وتهدف لتعليم القيادة والعمل الجماعي.</p>
+</div>
+</section><section id="egypt">
+<div class="card">
+<h2>الكشافة البحرية في مصر</h2>
+<p>انتشرت في المدن الساحلية مثل الإسكندرية وبورسعيد والسويس، وتساعد في بناء شخصية الشباب وخدمة المجتمع.</p>
+</div>
+</section><section id="law">
+<div class="card">
+<h2>قانون الكشافة</h2>
+<ul>
+<li>الشرف والثقة</li>
+<li>الولاء</li>
+<li>المساعدة</li>
+<li>الانضباط</li>
+<li>حب الطبيعة</li>
+</ul>
 </div>
 </section><section id="activities">
 <div class="card">
@@ -101,38 +117,85 @@ margin-top:20px;
 <ul>
 <li>الإبحار والتجديف</li>
 <li>السباحة والإنقاذ</li>
-<li>العقد البحرية</li>
-<li>المعسكرات</li>
+<li>المعسكرات البحرية</li>
+<li>الملاحة</li>
+<li>التدريب على الإنقاذ</li>
 </ul>
 </div>
-</section><section id="ranks">
+</section><section id="skills">
 <div class="card">
-<h2>رتب الكشافة البحرية</h2>
+<h2>المهارات المكتسبة</h2>
 <ul>
-<li>كشاف مبتدئ</li>
-<li>كشاف</li>
-<li>كشاف متقدم</li>
-<li>قائد مساعد</li>
-<li>قائد وحدة</li>
-</ul>
-</div>
-</section><section id="training">
-<div class="card">
-<h2>التدريبات</h2>
-<ul>
-<li>تعلم السباحة</li>
-<li>قيادة القوارب</li>
+<li>القيادة</li>
+<li>الاعتماد على النفس</li>
+<li>حل المشكلات</li>
 <li>الإسعافات الأولية</li>
 <li>العمل الجماعي</li>
 </ul>
 </div>
+</section><section id="knots">
+<div class="card">
+<h2>العقد البحرية</h2>
+<p>من أهم المهارات: العقدة البسيطة، عقدة الربط، عقدة الإنقاذ، وتستخدم في تثبيت القوارب وحمل الأشياء.</p>
+</div>
+</section><section id="signals">
+<div class="card">
+<h2>الإشارات البحرية</h2>
+<p>تستخدم الأعلام والصفارات للإشارة بين القوارب مثل: التوقف، الخطر، الاتجاه، طلب المساعدة.</p>
+</div>
 </section><section id="quiz">
 <div class="card">
-<h2>اختبارات كشفية</h2>
-<p>جرب معلوماتك في الكشافة البحرية!</p>
-<button onclick="alert('سؤال: من مؤسس الكشافة؟ الإجابة: بادن باول')">ابدأ الاختبار</button>
+<h2>اختبار الكشافة البحرية</h2>
+<p id="q">اضغط لبدء الاختبار</p>
+<p class="small" id="score"></p>
+<button onclick="startQuiz()">ابدأ</button>
+<div id="answers"></div>
 </div>
 </section><footer>
-<p>© 2026 - موقع الكشافة البحرية</p>
-</footer></body>
+<p>© 2026 - موسوعة الكشافة البحرية</p>
+</footer><script>
+let questions=[
+{q:"من مؤسس الكشافة؟",a:["بادن باول","نيوتن","نابليون"],c:0},
+{q:"الكشافة البحرية تهتم بـ؟",a:["المهارات البحرية","الألعاب","الطبخ"],c:0},
+{q:"من أدوات الكشافة؟",a:["البوصلة","التلفاز","السيارة"],c:0},
+{q:"أحد قيم الكشافة؟",a:["الصدق","الكذب","الكسل"],c:0},
+{q:"أين بدأت الكشافة؟",a:["إنجلترا","مصر","اليابان"],c:0}
+];
+
+let index=0;
+let score=0;
+
+function startQuiz(){
+index=0;
+score=0;
+showQ();
+}
+
+function showQ(){
+if(index>=questions.length){
+document.getElementById('q').innerHTML="انتهى الاختبار 🎉";
+document.getElementById('answers').innerHTML="";
+document.getElementById('score').innerHTML="نتيجتك: " + score + " / " + questions.length;
+return;
+}
+let q=questions[index];
+document.getElementById('q').innerHTML=q.q;
+let html="";
+q.a.forEach((ans,i)=>{
+html+=`<button onclick=\"check(${i})\">${ans}</button>`;
+});
+document.getElementById('answers').innerHTML=html;
+}
+
+function check(i){
+if(i===questions[index].c){
+score++;
+alert("إجابة صحيحة 🎉");
+}else{
+alert("إجابة غلط ❌");
+}
+index++;
+showQ();
+}
+</script></body>
 </html>
